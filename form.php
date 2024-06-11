@@ -15,12 +15,18 @@
 
     <form action="elabora.php" method="GET">
 
-        <input type="text" placeholder="Scrivi il tuo nome" name="nome">
-        <input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
+        <label for="elabora.php">Review of W3Schools:</label>
+
+        <textarea name="paragrafo" rows="4" cols="50">
+
+        </textarea>
 
         <button type="submit">Invia</button>
 
+
+
     </form>
+
 
 </body>
 
