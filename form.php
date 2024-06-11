@@ -15,7 +15,7 @@
 
     <form action="elabora.php" method="GET">
 
-        <label for="elabora.php">Review of W3Schools:</label>
+        <label for="elabora.php"></label>
 
         <textarea name="paragrafo" rows="4" cols="50">
 

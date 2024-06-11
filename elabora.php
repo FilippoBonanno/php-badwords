@@ -2,6 +2,8 @@
 
 $paragrafo = $_GET ["paragrafo"];
 
+$str = $paragrafo;
+
 
 ?>
 <!DOCTYPE html>
@@ -16,7 +18,7 @@ $paragrafo = $_GET ["paragrafo"];
 
 <body>
 
-    <h1>Hello, <?php echo $paragrafo; ?></h1>
+    <h1>La lunghezza del testo è di: <?php echo strlen($str) ?> Caratteri</h1>
     
 
 </body>
